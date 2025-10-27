@@ -104,6 +104,8 @@ source install/setup.bash
 ros2 launch maze_solver maze_solver.launch.py
 ```
 
+---
+
 **Author:** Chih-Hao (Andy) Tsai  
 **Course:** Robotics I (RAS 545) — Arizona State University  
 **Semester:** Fall 2025
