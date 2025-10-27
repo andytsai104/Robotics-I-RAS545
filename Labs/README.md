@@ -19,7 +19,7 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 - Built and analyzed the **kinematic chain** using MATLAB.
 - Verified forward kinematics via homogeneous transformation matrices.
 - Learned the use of **effective joint angles** for realistic motion modeling.  
-📂 [Report](./reports/Lab1_Intro_to_Dobot.pdf)
+📂 [Report](./reports/Group7_Lab1.pdf)
 
 ---
 
@@ -27,7 +27,7 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 - Created a **URDF model** of the Dobot Magician Lite.
 - Set up **ROS 2 workspace**, simulated robot in **RViz2 / Gazebo**.
 - Implemented **forward & inverse kinematics** verification between MATLAB and simulation.  
-📂 [Report](./reports/Lab2_Digital_Twin.pdf)
+📂 [Report](./reports/Group7_Lab2.pdf)
 
 ---
 
@@ -36,7 +36,7 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 - Built an image-to-world mapping pipeline using **OpenCV** + skeletonization.
 - Implemented a **custom inverse kinematics solver** with constraint θ₂ + θ₃ + θ₄ = −π⁄2.  
 - Controlled both simulation and real robot via **ROS 2 topics** and **TCP/IP**.  
-📂 [Report](./reports/Lab3_Path_Planning.pdf)
+📂 [Report](./reports/Group7_Lab3.pdf)
 
 ---
 
@@ -44,7 +44,7 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 - Extended Lab 3 pipeline for **smooth curved trajectories**.
 - Used **path interpolation** and **timed ROS 2 publishing** for continuous motion.
 - Validated downward orientation and kinematic accuracy.  
-📂 [Report](./reports/Lab4_Curved_Path.pdf)
+📂 [Report](./reports/Group7_Lab4.pdf)
 
 ---
 
@@ -53,7 +53,7 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 - Applied **morphological dilation** and **distance-transform cost maps** for safety margins.
 - Wrapped perception + planning + control into a single **ROS 2 node** (`maze_solver_publisher.py`).
 - Robot successfully executed maze traversal in both RViz and the physical setup.  
-📂 [Report](./reports/Final_Project_Maze_Solver.pdf)
+📂 [Report](./reports/final_project.pdf)
 
 ---
 
