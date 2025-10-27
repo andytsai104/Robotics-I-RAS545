@@ -4,22 +4,51 @@ This repository contains homework assignments and reports for the **Robotics and
 
 ---
 
-## 📑 Table of Contents
-1. [Homework 1 – Foundational Training](#homework-1--foundational-training)
-2. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
-3. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
-4. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
-5. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
-6. [Technical Skills & Highlights](#technical-skills--highlights)
+## Table of Contents
+1. [Technical Skills & Highlights](#technical-skills--highlights)
+2. [Homework 1 – Foundational Training](#homework-1--foundational-training)
+3. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
+4. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
+5. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
+6. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
+
+---
+
+## Technical Skills & Highlights
+**Core Tools:**  
+- MATLAB, Simulink  
+- Symbolic Math Toolbox  
+- Control System Toolbox  
+
+**Modeling & Simulation:**  
+- Forward and Inverse Kinematics (Industrial & SCARA robots)  
+- DH Parameter Table Construction  
+- Crank-Slider Mechanism Modeling  
+- Energy-based System Dynamics (Lagrangian formulation)  
+- Workspace and Trajectory Simulation  
+
+**Control Design:**  
+- Transfer Function Modeling  
+- Open-loop and Closed-loop System Analysis  
+- PID Controller Tuning and Stability Analysis  
+
+**Computation & Visualization:**  
+- Matrix Transformations and Homogeneous Coordinates  
+- MATLAB Function Scripting and Automation  
+- Simulation Plots and Comparative Performance Evaluation  
 
 ---
 
 ## Homework 1 – Foundational Training
 Certificates demonstrating MATLAB fundamentals used in later assignments:
-- ![MATLAB Fundamentals](./HW1/fund.png)
-- ![Programming Techniques](./HW1/PT.png)
-- ![Data Processing & Visualization](./HW1/Vi.png)
-- ![ODEs with MATLAB](./HW1/ODE.png)
+<p float="center">
+  <img src="./HW1/fund.png" width="400" />
+  <img src="./HW1/PT.png" width="400" />
+</p>
+<p float="center">
+  <img src="./HW1/Vi.png" width="400" />
+  <img src="./HW1/ODE.png" width="400" />
+</p>
 
 ---
 
@@ -62,27 +91,3 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
 - Included comparison plots showing improved tracking performance.  
 📂 [Report](./HW5/HW5.pdf)
 
----
-
-## 🧠 Technical Skills & Highlights
-**Core Tools:**  
-- MATLAB, Simulink  
-- Symbolic Math Toolbox  
-- Control System Toolbox  
-
-**Modeling & Simulation:**  
-- Forward and Inverse Kinematics (Industrial & SCARA robots)  
-- DH Parameter Table Construction  
-- Crank-Slider Mechanism Modeling  
-- Energy-based System Dynamics (Lagrangian formulation)  
-- Workspace and Trajectory Simulation  
-
-**Control Design:**  
-- Transfer Function Modeling  
-- Open-loop and Closed-loop System Analysis  
-- PID Controller Tuning and Stability Analysis  
-
-**Computation & Visualization:**  
-- Matrix Transformations and Homogeneous Coordinates  
-- MATLAB Function Scripting and Automation  
-- Simulation Plots and Comparative Performance Evaluation  
