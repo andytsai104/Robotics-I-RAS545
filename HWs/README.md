@@ -34,7 +34,7 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
 ## Homework 3 – SCARA Robot Kinematics & Simulation {#hw3}
 - Derived **forward kinematics** and obtained $^0T_{E.E.}$.  
 - Verified results using a custom MATLAB function.  
-- Determined the **workspace** (reach: 0.85 m in $x$–$y$, 0.6 m in $z$).  
+- Determined the **workspace**.  
 - Implemented the model in **Simulink**.  
 - Solved **inverse kinematics** and simulated a square trajectory.  
 📂 [Report](./HW3/HW3.pdf)
