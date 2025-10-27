@@ -5,15 +5,16 @@ This repository contains homework assignments and reports for the **Robotics and
 ---
 
 ## 📑 Table of Contents
-1. [Homework 1 – Foundational Training](#hw1)
-2. [Homework 2 – Industrial Robot Kinematics](#hw2)
-3. [Homework 3 – SCARA Robot Kinematics & Simulation](#hw3)
-4. [Homework 4 – Crank-Slider Mechanism Dynamics](#hw4)
-5. [Homework 5 – PID Control Design](#hw5)
+1. [Homework 1 – Foundational Training](#homework-1--foundational-training)
+2. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
+3. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
+4. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
+5. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
+6. [Technical Skills & Highlights](#technical-skills--highlights)
 
 ---
 
-## Homework 1 – Foundational Training {#hw1}
+## Homework 1 – Foundational Training
 Certificates demonstrating MATLAB fundamentals used in later assignments:
 - ![MATLAB Fundamentals](./HW1/fund.png)
 - ![Programming Techniques](./HW1/PT.png)
@@ -22,7 +23,7 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
 
 ---
 
-## Homework 2 – Industrial Robot Kinematics {#hw2}
+## Homework 2 – Industrial Robot Kinematics
 - Performed **forward kinematics** for a multi-DOF robot.  
 - Computed homogeneous transformation matrices ($^{i}T_{i+1}$) using the **projection matrix** method.  
 - Verified end-effector position in **MATLAB**.  
@@ -31,7 +32,7 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
 
 ---
 
-## Homework 3 – SCARA Robot Kinematics & Simulation {#hw3}
+## Homework 3 – SCARA Robot Kinematics & Simulation
 - Derived **forward kinematics** and obtained $^0T_{E.E.}$.  
 - Verified results using a custom MATLAB function.  
 - Determined the **workspace**.  
@@ -41,17 +42,17 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
 
 ---
 
-## Homework 4 – Crank-Slider Mechanism Dynamics {#hw4}
+## Homework 4 – Crank-Slider Mechanism Dynamics
 - Modeled the **crank-slider mechanism**.  
 - Calculated link angles and mass positions.  
 - Derived **potential**, **kinetic**, and **Lagrangian** equations.  
 - Obtained the **equation of motion** using Euler–Lagrange formulation.  
-- Simulated $	heta(t)$ and $x_C(t)$ responses in **MATLAB/Simulink**.  
+- Simulated $\theta(t)$ and $x_C(t)$ responses in **MATLAB/Simulink**.  
 📂 [Report](./HW4/HW4.pdf)
 
 ---
 
-## Homework 5 – PID Control Design {#hw5}
+## Homework 5 – PID Control Design
 - Defined the **plant transfer function**.  
 - Analyzed the **open-loop** response to $r(t)=5\sin(2t)$.  
 - Designed a **PID controller** and compared control strategies:  
@@ -60,3 +61,28 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
   - **PID ($K_p=0.5, K_i=5, K_d=15$):** Best tracking and stability.  
 - Included comparison plots showing improved tracking performance.  
 📂 [Report](./HW5/HW5.pdf)
+
+---
+
+## 🧠 Technical Skills & Highlights
+**Core Tools:**  
+- MATLAB, Simulink  
+- Symbolic Math Toolbox  
+- Control System Toolbox  
+
+**Modeling & Simulation:**  
+- Forward and Inverse Kinematics (Industrial & SCARA robots)  
+- DH Parameter Table Construction  
+- Crank-Slider Mechanism Modeling  
+- Energy-based System Dynamics (Lagrangian formulation)  
+- Workspace and Trajectory Simulation  
+
+**Control Design:**  
+- Transfer Function Modeling  
+- Open-loop and Closed-loop System Analysis  
+- PID Controller Tuning and Stability Analysis  
+
+**Computation & Visualization:**  
+- Matrix Transformations and Homogeneous Coordinates  
+- MATLAB Function Scripting and Automation  
+- Simulation Plots and Comparative Performance Evaluation  
