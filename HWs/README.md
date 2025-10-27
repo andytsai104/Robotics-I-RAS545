@@ -5,14 +5,14 @@ This repository contains homework assignments and reports completed for a **Robo
 ---
 
 ## 📑 Table of Contents
-1. [Homework 1 - Foundational Training (Certificates)](#foundational-training)
+1. [Homework 1 - Foundational Training (Certificates)](#hw1)
 2. [Homework 2 — Industrial Robot Kinematics](#hw2)
 3. [Homework 3 — SCARA Robot Kinematics & Simulation](#hw3)
 4. [Homework 4 — Dynamic Analysis of a Crank-Slider Mechanism](#hw4)
 5. [Homework 5 — PID Control System Design](#hw5)
 
 ---
-## Homework 1 - Foundational Training (Certificates)
+## Homework 1 - Foundational Training (Certificates) {#hw1}
 
 These certificates represent foundational skills in MATLAB used throughout the coursework.
 
@@ -24,7 +24,7 @@ These certificates represent foundational skills in MATLAB used throughout the c
 ---
 ## Homework 2 — Industrial Robot Kinematics {#hw2}
 
-- [cite_start]Performed **Forward Kinematics** for a multi-DOF industrial robot[cite: 591].
+- ![cite_start]Performed **Forward Kinematics** for a multi-DOF industrial robot[cite: 591].
 - [cite_start]Calculated the homogeneous transformation matrices ($^{i}T_{i+1}$) using the **Projection Matrix** method[cite: 595, 596].
 - [cite_start]Verified the final end-effector position and homogeneous transformation using **MATLAB**[cite: 627, 631].
 - [cite_start]Also presented a Denavit-Hartenberg (DH) table analysis for the same robot[cite: 751].
