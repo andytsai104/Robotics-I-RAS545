@@ -5,7 +5,7 @@ This repository contains homework assignments and reports completed for a **Robo
 ---
 
 ## 📑 Table of Contents
-1. [Foundational Training (Certificates)](#foundational-training)
+1. [Homework 1 - Foundational Training (Certificates)](#foundational-training)
 2. [Homework 2 — Industrial Robot Kinematics](#hw2)
 3. [Homework 3 — SCARA Robot Kinematics & Simulation](#hw3)
 4. [Homework 4 — Dynamic Analysis of a Crank-Slider Mechanism](#hw4)
@@ -16,7 +16,7 @@ This repository contains homework assignments and reports completed for a **Robo
 
 These certificates represent foundational skills in MATLAB used throughout the coursework.
 
-- [cite_start]**MATLAB Fundamentals** [cite: 580]
+- ![MATLAB Fundamentals](./HW/HW1/fund.png)
 - [cite_start]**MATLAB Programming Techniques** [cite: 573]
 - [cite_start]**MATLAB for Data Processing and Visualization** [cite: 5]
 - [cite_start]**Solving Ordinary Differential Equations with MATLAB** [cite: 587]
