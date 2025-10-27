@@ -10,7 +10,7 @@ This repository contains homework assignments and reports for the **Robotics and
 3. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
 4. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
 5. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
-6. [Technical Skills & Highlights](#technical-skills--highlights)
+6. [Technical Skills & Highlights](#technical-skills)
 
 ---
 
@@ -64,7 +64,7 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
 
 ---
 
-## 🧠 Technical Skills & Highlights
+## 🧠 Technical Skills
 **Core Tools:**  
 - MATLAB, Simulink  
 - Symbolic Math Toolbox  
