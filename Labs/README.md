@@ -7,13 +7,13 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 ---
 
 ## Table of Contents
-1. [Technical Highlights](#-technical-highlights)
+1. [Technical Highlights](#technical-highlights)
 2. [Lab 1 — Forward Kinematics of Dobot Magician Lite](#lab-1--forward-kinematics-of-dobot-magician-lite)
 3. [Lab 2 — Digital Twin (ROS 2 + Gazebo)](#lab-2--digital-twin-ros-2--gazebo)
 4. [Lab 3 — Vision-Based Path Planning](#lab-3--vision-based-path-planning)
 5. [Lab 4 — Curved Path Following](#lab-4--curved-path-following)
 6. [Final Project — Maze Solving via A* Search](#final-project--smart-and-accurate-maze-solving) 
-7. [ROS 2 Workspace](#-ros-2-workspace)
+7. [ROS 2 Workspace](#ros-2-workspace)
 
 ---
 
@@ -87,7 +87,7 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 - Used **morphological dilation** and **distance-transform cost maps** to ensure safe path generation.  
 - Combined **perception**, **planning**, and **control** into a unified **ROS 2 node** (`maze_solver_publisher.py`).  
 - Demonstrated successful maze navigation in both **RViz** simulation and **real hardware**.  
-📂 [Final report](./reports/final_project.pdf)
+📂 [Final Report](./reports/final_project.pdf)
 
 ---
 
@@ -103,3 +103,7 @@ colcon build --symlink-install
 source install/setup.bash
 ros2 launch maze_solver maze_solver.launch.py
 ```
+
+**Author:** Chih-Hao (Andy) Tsai  
+**Course:** Robotics I (RAS 545) — Arizona State University  
+**Semester:** Fall 2025
