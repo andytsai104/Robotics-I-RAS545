@@ -16,10 +16,10 @@ This repository contains homework assignments and reports completed for a **Robo
 
 These certificates represent foundational skills in MATLAB used throughout the coursework.
 
-- ![MATLAB Fundamentals](./HW/HW1/fund.png)
-- ![MATLAB Programming Techniques](./HW/HW1/PT.png)
-- ![MATLAB for Data Processing and Visualization](./HW/HW1/Vi.png)
-- ![Solving Ordinary Differential Equations with MATLAB](./HW/HW1/ODE.png)
+- ![MATLAB Fundamentals](./HW1/fund.png)
+- ![MATLAB Programming Techniques](./HW1/PT.png)
+- ![MATLAB for Data Processing and Visualization](./HW1/Vi.png)
+- ![Solving Ordinary Differential Equations with MATLAB](./HW1/ODE.png)
 
 ---
 ## Homework 2 — Industrial Robot Kinematics {#hw2}
