@@ -1,4 +1,4 @@
-# Robotics I — RAS 545
+# Robotics Systems I (RAS 545)
 
 ### Arizona State University — Spring 2025  
 **Instructor:** Dr. Mostafa Yourdkhani  
