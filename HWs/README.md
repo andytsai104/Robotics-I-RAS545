@@ -16,11 +16,18 @@ This repository contains homework assignments and reports for the **Robotics and
 
 ## Homework 1 – Foundational Training
 Certificates demonstrating MATLAB fundamentals used in later assignments:
-- ![MATLAB Fundamentals](./HW1/fund.png)
-- ![Programming Techniques](./HW1/PT.png)
-- ![Data Processing & Visualization](./HW1/Vi.png)
-- ![ODEs with MATLAB](./HW1/ODE.png)
-
+// - ![MATLAB Fundamentals](./HW1/fund.png)
+// - ![Programming Techniques](./HW1/PT.png)
+// - ![Data Processing & Visualization](./HW1/Vi.png)
+// - ![ODEs with MATLAB](./HW1/ODE.png)
+<p float="left">
+  <img src="./HW1/fund.png" width="200" />
+  <img src="./HW1/PT.png" width="200" />
+</p>
+<p float="left">
+  <img src="./HW1/Vi.png" width="200" />
+  <img src="./HW1/ODE.png" width="200" />
+</p>
 ---
 
 ## Homework 2 – Industrial Robot Kinematics
