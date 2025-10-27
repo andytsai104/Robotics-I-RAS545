@@ -1,0 +1,35 @@
+<package format="3">
+  <name>dobot_magician_lite</name>
+  <version>1.0.0</version>
+  <description>
+    URDF Description package for dobot_magician_lite.
+    This package contains configuration data, 3D models, and launch files
+    for the dobot_magician_lite robot.
+  </description>
+
+  <maintainer email="ctsai67@asu.edu">Andy</maintainer>
+  <license>BSD</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ROS 2 Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>rviz2</depend>
+  <depend>gazebo_ros_pkgs</depend>
+  <depend>moveit_simple_controller_manager</depend>
+
+  <!-- Export -->
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/.." />
+  </export>
+</package>

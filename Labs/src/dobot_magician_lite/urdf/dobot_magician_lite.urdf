@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="dobot_magician_lite">
+
+  <link name="world"/>
+  <joint name="base_joint" type="fixed">
+  	<parent link="world"/>
+	  <child link="base_link"/>
+	  <origin rpy="0 0 0" xyz="0.0 0.0 0.17"/>
+  </joint>
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="1.5965E-05 -0.000104 0.027713"
+        rpy="0 0 0" />
+      <mass
+        value="0.39676" />
+      <inertia
+        ixx="0.00094204"
+        ixy="2.2751E-07"
+        ixz="2.492E-06"
+        iyy="0.00091408"
+        iyz="-2.4031E-07"
+        izz="0.0017912" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link_1">
+    <inertial>
+      <origin
+        xyz="-0.00632806257105688 -3.31801388174791E-05 0.0201647105596084"
+        rpy="0 0 0" />
+      <mass
+        value="0.146982965690402" />
+      <inertia
+        ixx="0.000122805302630179"
+        ixy="1.54789979781778E-07"
+        ixz="6.04921358002462E-06"
+        iyy="0.000245891381662071"
+        iyz="2.62119117064098E-08"
+        izz="0.000251546860925818" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.305882352941176 0.333333333333333 0.36078431372549 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.085703"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link_1" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0" 
+      upper="2.356"
+      effort="1"
+      velocity="1" />
+  </joint>
+  <link
+    name="link_2">
+    <inertial>
+      <origin
+        xyz="-0.0129259789896202 -0.100188519337276 -0.00738098214756541"
+        rpy="0 0 0" />
+      <mass
+        value="0.0847981604416596" />
+      <inertia
+        ixx="0.000159144236247681"
+        ixy="4.58600282399557E-06"
+        ixz="4.5257068578127E-08"
+        iyy="2.64058395142776E-05"
+        iyz="-2.01848031295547E-07"
+        izz="0.000155616168533719" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.666666666666667 0.666666666666667 0.654901960784314 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_2"
+    type="revolute">
+    <origin
+      xyz="0.02 0.0075 0.019"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link_1" />
+    <child
+      link="link_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.396"
+      upper="0.087"
+      effort="1"
+      velocity="1" />
+  </joint>
+  <link
+    name="link_3">
+    <inertial>
+      <origin
+        xyz="0.0735750146583276 -0.0160189994813653 -0.00194416428274072"
+        rpy="0 0 0" />
+      <mass
+        value="0.0607373775384603" />
+      <inertia
+        ixx="1.21952829220814E-05"
+        ixy="-3.76588423518965E-06"
+        ixz="-1.04148922176665E-09"
+        iyy="0.000152901164901591"
+        iyz="2.93034644058927E-10"
+        izz="0.000152068939328258" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.666666666666667 0.666666666666667 0.654901960784314 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_3"
+    type="revolute">
+    <origin
+      xyz="0.0021748 -0.14998 -0.0055"
+      rpy="0 0 0" />
+    <parent
+      link="link_2" />
+    <child
+      link="link_3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.4835"
+      upper="0.1745"
+      effort="1"
+      velocity="1" />
+  </joint>
+  <link
+    name="link_4">
+    <inertial>
+      <origin
+        xyz="0.0441918650232163 -0.00967000419225683 -0.00105010084740254"
+        rpy="0 0 0" />
+      <mass
+        value="0.0429910062715709" />
+      <inertia
+        ixx="6.0328417087413E-06"
+        ixy="1.35266665470492E-06"
+        ixz="2.21570301381979E-08"
+        iyy="9.5045594783501E-06"
+        iyz="1.98921678685953E-08"
+        izz="1.45845062272137E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_4"
+    type="revolute">
+    <origin
+      xyz="0.14998 0.002171 -0.001"
+      rpy="0 0 0" />
+    <parent
+      link="link_3" />
+    <child
+      link="link_4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.4835"
+      upper="0.1745"
+      effort="1"
+      velocity="1" />
+  </joint>
+
+  <!-- <joint
+    name="joint_4"
+    type="revolute">
+    <origin
+      xyz="0.14998 0.002171 -0.001"
+      rpy="0 0 0" />
+    <parent
+      link="link_3" />
+    <child
+      link="link_4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.265"
+      upper="1.265"
+      effort="1"
+      velocity="1" />
+  </joint> -->
+  <link
+    name="E.E.">
+    <inertial>
+      <origin
+        xyz="-3.41946400861382E-05 1.35161289040175E-06 -0.0334264733888865"
+        rpy="0 0 0" />
+      <mass
+        value="0.0295949456598662" />
+      <inertia
+        ixx="4.23783880472958E-06"
+        ixy="-6.50062203686924E-11"
+        ixz="5.6868580888995E-10"
+        iyy="4.23619744666409E-06"
+        iyz="-2.23929910477255E-11"
+        izz="1.02675645882584E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/E.E..STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dobot_magician_lite/meshes/E.E..STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint_5"
+    type="revolute">
+    <origin
+      xyz="0.07295 0.0126 -0.001"
+      rpy="1.5708 0 0" />
+    <parent
+      link="link_4" />
+    <child
+      link="E.E." />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="1"
+      velocity="1" />
+  </joint>
+
+  <transmission name="link_1_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_1">
+    	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link_1_motor">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface> 		
+	<mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+  <transmission name="link_2_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_2">
+    	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link_2_motor">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface> 		
+	<mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+  <transmission name="link_3_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_3">
+    	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link_3_motor">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface> 		
+	<mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+  <transmission name="link_4_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_4">
+    	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link_4_motor">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface> 		
+	<mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+  <transmission name="link_5_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_5">
+    	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="link_5_motor">
+	<hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface> 		
+	<mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+  <gazebo>
+    <plugin name="control" filename="libgazebo_ros_control.so">
+  	<robotNamespace>/</robotNamespace>
+    </plugin>
+  </gazebo>
+  
+  <gazebo reference="link_1">
+    <selfCollide>true</selfCollide>
+  </gazebo>
+  
+  <gazebo reference="link_2">
+    <selfCollide>true</selfCollide>
+  </gazebo>
+  
+  <gazebo reference="link_3">
+    <selfCollide>true</selfCollide>
+  </gazebo>
+  
+  <gazebo reference="link_4">
+    <selfCollide>true</selfCollide>
+  </gazebo>
+
+  <gazebo reference="E.E.">
+    <selfCollide>true</selfCollide>
+  </gazebo>
+</robot>
