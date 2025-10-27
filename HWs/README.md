@@ -49,6 +49,7 @@ Certificates demonstrating MATLAB fundamentals used in later assignments:
   <img src="./HW1/Vi.png" width="400" />
   <img src="./HW1/ODE.png" width="400" />
 </p>
+
 ---
 
 ## Homework 2 – Industrial Robot Kinematics
