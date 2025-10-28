@@ -74,7 +74,7 @@ This course builds the foundation of modern robotic systems by combining **mathe
 📘 *Core Concepts:* ROS 2 topics · OpenCV · Path interpolation · Real-world validation  
 📂 *Read full README:* [`Labs/README.md`](./Labs/README.md)
 
-- Rviz simulation for MyCobot Pro 600:
+Result images:
 <p float="center">
   <img src="./Labs/media/lab3/cobot_model.png" width="500" />
 </p>
@@ -93,6 +93,12 @@ The system captures maze images, extracts paths, computes the shortest route usi
 Validated both in **Gazebo** and **real robot experiments**.
 
 📂 *Report:* [`Labs/reports/final_project.pdf`](./Labs/reports/final_project.pdf)
+
+Result images:
+<p float="center">
+  <img src="./Labs/media/final project/path_img1.jpg" width="400" />
+  <img src="./Labs/media/final project/path_img4.jpg" width="400" />
+</p>
 
 ---
 
