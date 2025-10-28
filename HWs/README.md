@@ -5,12 +5,11 @@ This repository contains homework assignments and reports for the **Robotics and
 ---
 
 ## Table of Contents
-1. [Technical Skills & Highlights](#technical-skills--highlights)
-2. [Homework 1 – Foundational Training](#homework-1--foundational-training)
-3. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
-4. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
-5. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
-6. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
+1. [Homework 1 – Foundational Training](#homework-1--foundational-training)
+2. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
+3. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
+4. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
+5. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
 
 ---
 
