@@ -5,7 +5,7 @@ This repository contains homework assignments and reports for the **Robotics and
 ---
 
 ## Table of Contents
-1. [Technical Highlights](#techhnical-hightlights)
+1. [Technical Highlights](#technical-highlights)
 2. [Homework 1 – Foundational Training](#homework-1--foundational-training)
 3. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
 4. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
