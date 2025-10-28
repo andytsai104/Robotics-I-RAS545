@@ -63,7 +63,7 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 📂 [Report 2](./reports/Group7_Lab2.pdf)
 
 <p float="center">
-  <img src="./Labs/media/lab2/Dobot_model.png" width="500" />
+  <img src="./media/lab2/Dobot_model.png" width="500" />
 </p>
 
 ---
