@@ -19,32 +19,25 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 
 ## Technical Highlights
 
-### Core Frameworks & Tools
+### Core Tools
 - **ROS 2 Humble**, **Gazebo**, **RViz2** for simulation and visualization.  
-- **MATLAB** for kinematic derivation and validation.  
-- **Python 3 / C++** for ROS 2 node development and real-time control.  
+- **MATLAB** for kinematic validation; **Python/C++** for ROS 2 node development.  
 
 ### Robot Modeling & Control
-- URDF modeling, link/joint definition, and frame transformations (`tf2`).  
-- Custom **Forward & Inverse Kinematics** solver for 6-DOF MyCobot Pro 600.  
-- Constraint handling:  $\theta_2 + \theta_3 + \theta_4 = -\pi/2$ for planar consistency.  
-- Command publishing via **rclpy** and **TCP/IP client-server communication**.
+- Built URDF models and managed frame transformations (`tf2`).  
+- Developed custom **FK/IK solvers** for the 6-DOF MyCobot Pro 600 with constraint  
+  $\theta_2 + \theta_3 + \theta_4 = -\pi/2$.  
+- Controlled the robot via **rclpy** publishers and **TCP/IP** communication.  
 
 ### Perception & Path Planning
-- **OpenCV-based** color detection and maze preprocessing.  
-- Image skeletonization → **graph representation** → **A\*** path search.  
-- Conversion of pixel-level path to robot coordinates with scaling and offset correction.  
-- **Path interpolation** for smooth trajectory following.  
+- Used **OpenCV** for color detection, skeletonization, and maze preprocessing.  
+- Implemented **A\*** search and pixel-to-world mapping for real-time path execution.  
+- Applied **path interpolation** for smooth and continuous motion.  
 
-### Simulation & Integration
-- ROS 2 node graph connecting **camera → planner → controller**.  
-- Multi-stage testing pipeline: MATLAB validation → RViz → Gazebo → Real Robot.  
-- Real-time debugging via ROS 2 topics and **tf frames**.
-
-### Performance & Visualization
-- Comparison between planned vs. executed trajectories.  
-- Quantitative evaluation of tracking accuracy and curvature smoothness.  
-- Integration of plotting utilities in Python and MATLAB for visual analysis.
+### Integration & Evaluation
+- Linked perception → planning → control through ROS 2 nodes and topics.  
+- Tested progressively: MATLAB → RViz → Gazebo → real robot.  
+- Compared planned vs. executed trajectories for accuracy and smoothness.  
 
 ---
 
