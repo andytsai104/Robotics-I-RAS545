@@ -52,6 +52,11 @@ This course builds the foundation of modern robotic systems by combining **mathe
 📘 *Core Concepts:* DH parameters · Euler–Lagrange formulation · PID tuning  
 📂 *Read full README:* [`HWs/README.md`](./HWs/README.md)
 
+- MATLAB/Simulink simulation for SCARA robot:
+<p float="center">
+  <img src="./HWs/HW3/Q2/SCARA.png" width="500" />
+</p>
+
 ---
 
 ## Laboratory Series — Vision-Based Path Planning
@@ -69,8 +74,13 @@ This course builds the foundation of modern robotic systems by combining **mathe
 📘 *Core Concepts:* ROS 2 topics · OpenCV · Path interpolation · Real-world validation  
 📂 *Read full README:* [`Labs/README.md`](./Labs/README.md)
 
+- Rviz simulation for MyCobot Pro 600:
 <p float="center">
   <img src="./Labs/media/lab3/cobot_model.png" width="500" />
+</p>
+<p float="center">
+  <img src="./Labs/media/lab3/straight_path.jpg" width="400" />
+  <img src="./Labs/media/lab4/curve_path.jpg" width="400" />
 </p>
 
 ---
