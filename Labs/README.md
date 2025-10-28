@@ -62,6 +62,10 @@ The pipeline progresses from basic kinematics to autonomous maze solving.
 - Implemented both **forward and inverse kinematics** verification between MATLAB and ROS 2 simulation.  
 📂 [Report 2](./reports/Group7_Lab2.pdf)
 
+<p float="center">
+  <img src="./Labs/lab2/Dobot_model.png" width="500" />
+</p>
+
 ---
 
 ## Lab 3 — Vision-Based Path Planning
