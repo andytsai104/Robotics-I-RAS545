@@ -69,6 +69,10 @@ This course builds the foundation of modern robotic systems by combining **mathe
 📘 *Core Concepts:* ROS 2 topics · OpenCV · Path interpolation · Real-world validation  
 📂 *Read full README:* [`Labs/README.md`](./Labs/README.md)
 
+<p float="center">
+  <img src="./Labs/media/lab3/cobot_model.png" width="500" />
+</p>
+
 ---
 
 ## Final Integration — ROS 2 Maze Solving Project
