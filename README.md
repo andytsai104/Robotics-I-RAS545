@@ -28,14 +28,14 @@ The course is divided into two main components:
 ## Technical Overview
 This course builds the foundation of modern robotic systems by combining **mathematical modeling**, **control theory**, and **ROS-based implementation**.
 
-| Domain | Focus | Tools |
-|--------|--------|-------|
-| Kinematics | Forward/Inverse Kinematics, DH Parameters | MATLAB |
-| Dynamics | Lagrangian Modeling, Equation of Motion | MATLAB / Simulink |
-| Control | PID, Feedback Stability | MATLAB |
-| Simulation | ROS 2 + Gazebo + RViz2 | Python / C++ |
-| Vision & Planning | OpenCV, A* Path Search | Python |
-| Hardware | MyCobot Pro 600, TCP/IP Control | ROS 2 |
+| Category | Skills / Tools |
+|-----------|----------------|
+| **Modeling & Control** | MATLAB · Simulink · Symbolic Math Toolbox · Control System Toolbox |
+| **Kinematics & Dynamics** | Forward/Inverse Kinematics · DH Table · Lagrangian Mechanics |
+| **ROS 2 & Simulation** | ROS 2 Humble · Gazebo · RViz2 · tf2 · URDF modeling |
+| **Computer Vision** | OpenCV · Image Skeletonization · Graph-based Path Search |
+| **Programming** | Python · C++ · MATLAB |
+| **Hardware Integration** | MyCobot Pro 600 · TCP/IP control · Real-robot motion execution |
 
 ---
 
@@ -103,16 +103,4 @@ Result images:
   <img src="./Labs/media/final project/path_img4.jpg" width="400" />
 </p>
 
----
-
-## Skills & Tools Summary
-
-| Category | Skills / Tools |
-|-----------|----------------|
-| **Modeling & Control** | MATLAB · Simulink · Symbolic Math Toolbox · Control System Toolbox |
-| **Kinematics & Dynamics** | Forward/Inverse Kinematics · DH Table · Lagrangian Mechanics |
-| **ROS 2 & Simulation** | ROS 2 Humble · Gazebo · RViz2 · tf2 · URDF modeling |
-| **Computer Vision** | OpenCV · Image Skeletonization · Graph-based Path Search |
-| **Programming** | Python · C++ · MATLAB |
-| **Hardware Integration** | MyCobot Pro 600 · TCP/IP control · Real-robot motion execution |
 
