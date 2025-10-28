@@ -79,8 +79,8 @@ Result images:
   <img src="./Labs/media/lab3/cobot_model.png" width="500" />
 </p>
 <p float="center">
-  <img src="./Labs/media/lab3/straight_path.jpg" width="400" />
-  <img src="./Labs/media/lab4/curve_path.jpg" width="400" />
+  <img src="./Labs/media/lab3/straight_path.jpg" width="400" height="400" />
+  <img src="./Labs/media/lab4/curve_path.jpg" width="400" height="400"/>
 </p>
 
 ---
@@ -95,6 +95,9 @@ Validated both in **Gazebo** and **real robot experiments**.
 📂 *Report:* [`Labs/reports/final_project.pdf`](./Labs/reports/final_project.pdf)
 
 Result images:
+<p float="center">
+  <img src="./Labs/media/final project/cobot_model.png" width="500" />
+</p>
 <p float="center">
   <img src="./Labs/media/final project/path_img1.jpg" width="400" />
   <img src="./Labs/media/final project/path_img4.jpg" width="400" />
