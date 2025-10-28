@@ -14,31 +14,6 @@ This repository contains homework assignments and reports for the **Robotics and
 
 ---
 
-## Technical Skills & Highlights
-**Core Tools:**  
-- MATLAB, Simulink  
-- Symbolic Math Toolbox  
-- Control System Toolbox  
-
-**Modeling & Simulation:**  
-- Forward and Inverse Kinematics (Industrial & SCARA robots)  
-- DH Parameter Table Construction  
-- Crank-Slider Mechanism Modeling  
-- Energy-based System Dynamics (Lagrangian formulation)  
-- Workspace and Trajectory Simulation  
-
-**Control Design:**  
-- Transfer Function Modeling  
-- Open-loop and Closed-loop System Analysis  
-- PID Controller Tuning and Stability Analysis  
-
-**Computation & Visualization:**  
-- Matrix Transformations and Homogeneous Coordinates  
-- MATLAB Function Scripting and Automation  
-- Simulation Plots and Comparative Performance Evaluation  
-
----
-
 ## Homework 1 – Foundational Training
 Certificates demonstrating MATLAB fundamentals used in later assignments:
 <p float="center">
