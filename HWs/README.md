@@ -5,11 +5,30 @@ This repository contains homework assignments and reports for the **Robotics and
 ---
 
 ## Table of Contents
-1. [Homework 1 – Foundational Training](#homework-1--foundational-training)
-2. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
-3. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
-4. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
-5. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
+1. [Technical Highlights](#techhnical-hightlights)
+2. [Homework 1 – Foundational Training](#homework-1--foundational-training)
+3. [Homework 2 – Industrial Robot Kinematics](#homework-2--industrial-robot-kinematics)
+4. [Homework 3 – SCARA Robot Kinematics & Simulation](#homework-3--scara-robot-kinematics--simulation)
+5. [Homework 4 – Crank-Slider Mechanism Dynamics](#homework-4--crank-slider-mechanism-dynamics)
+6. [Homework 5 – PID Control Design](#homework-5--pid-control-design)
+
+---
+
+## Technical Highlights
+
+### Core Tools
+- **MATLAB** and **Simulink** for modeling, simulation, and control design.  
+- Symbolic and Control System Toolboxes for analytical derivation and system analysis.  
+
+### Kinematics & Dynamics
+- Derived **forward/inverse kinematics** for SCARA and industrial robots.  
+- Built **DH parameter tables** and transformation matrices for multi-DOF manipulators.  
+- Modeled the **crank–slider mechanism** using Lagrangian dynamics.  
+
+### Simulation & Control
+- Developed **Simulink models** for motion and trajectory simulation.  
+- Designed and tuned **P, PI, and PID controllers**; compared tracking and stability.  
+- Verified results through numerical and graphical validation in MATLAB.  
 
 ---
 
